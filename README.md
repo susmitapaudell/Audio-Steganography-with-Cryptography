@@ -1,0 +1,1 @@
+**serializer.py :** Metadata (Python Dictionary) -> JSON Serialization -> UTF-8 Encoding -> **key_derivation.py :** Password + Salt -> PBKDF2 Key Derivation -> 256-bit AES Key -> **aes_cipher** : AES-256-GCM Encryption -> Nonce + Ciphertext + Authentication Tag
