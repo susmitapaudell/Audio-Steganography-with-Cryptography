@@ -3,9 +3,9 @@
 
 # wav_header_inspector.py
 
-## Usage
 
-Run the script from the command line with one of the following options.
+Run the script from the command line with one of the following options. The system argument takes file from samples folder. No need mention it in the path while giving argument.
+
 
 ### Display WAV header information
 
@@ -13,9 +13,9 @@ Run the script from the command line with one of the following options.
 python3 wav_header_inspector.py <audio_file> --info
 ```
 
-Displays information extracted from the WAV file header.
+Displays if wav file is compatible for our project based on the header.
 
-### Run header comparison
+### Run header compatibility
 
 ```bash
 python3 wav_header_inspector.py <audio_file> --comp
