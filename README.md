@@ -12,8 +12,8 @@ Run the script from the command line with one of the following options. The syst
 ```bash
 python3 wav_header_inspector.py <audio_file> --info
 ```
+Displays the 44 bytes information of the .wav file.
 
-Displays if wav file is compatible for our project based on the header.
 
 ### Run header compatibility
 
@@ -21,5 +21,5 @@ Displays if wav file is compatible for our project based on the header.
 python3 wav_header_inspector.py <audio_file> --comp
 ```
 
-Runs the comparison functionality for the specified WAV file.
+Displays if wav file is compatible for our project based on the header.
 ```
